@@ -13,11 +13,11 @@
 		"fca-umaru-v1",
 		"fca-umaru-v2"
 	],
-	"botname": "Umaru",
-	"prefix": "/",
+	"botname": "𝙕𝘼𝙏𝙐𝙆𝙎𝙃𝙄",
+	"prefix": "•",
 	"nickname": "》 {prefix} 《 ❃ ➠ {botname} ",
 	"adminbot": [
-		"100052086120278"
+		"100052395031835"
 	],
 	"RankupMode": "canvas",
 	"WelcomeMode": "canvas",
@@ -26,7 +26,7 @@
 	"SqliteDB": true,
 	"PerformanceMode": false,
 	"LanguageAndTimeZone_Detector": true,
-	"Anonymous": false,
+	"Anonymous": true,
 	"console": true,
 	"JournalingMechanism": true,
 	"AppStateEncryption": true,
@@ -38,8 +38,8 @@
 	"PerformanceModeConfig": {
 		"ThreadLimit": 100,
 		"ThreadPerResponseLimit": 100,
-		"AutoLeaveInactiveGroupMode": false,
-		"AutoLeaveMode": false,
+		"AutoLeaveInactiveGroupMode": true,
+		"AutoLeaveMode": true,
 		"resend": true,
 		"LanguageAndTimeZone_Detector": true,
 		"Scheduler": false,
@@ -64,17 +64,17 @@
 		"AutoOffBotSendMessage": "Bye everyone. i need to sleep i'll be right back at 5:00AM 🥰",
 		"AutoOffBotEndSleep": "05:00",
 		"AutoGreet": false,
-		"AutoGreetWithSticker": false,
+		"AutoGreetWithSticker": true,
 		"AutoGreetSendPerHour": "2",
-		"HolidayAutoGreet": false,
+		"HolidayAutoGreet": true,
 		"ChristmasCountdown": false,
 		"ChristmasCountdownMsg": "🎄 {{1}} days before christmas\n{{2}}",
-		"AcceptFriendRequest": false,
-		"AutoPending": false,
+		"AcceptFriendRequest": true,
+		"AutoPending": true,
 		"PendingMsg": "{botname} Connected Successfully!\nUse {prefix}help for more info :>",
 		"AutoBioStatus": false,
 		"AutoBioStatusSetPerHour": "1",
-		"BioStatus": "Prefix: {prefix}\nmade by: https://fb.com/rootalocalhost.dev\n\n🟢 Active: {time}",
+		"BioStatus": "Prefix: {prefix}\nmade by: https://www.facebook.com/kyleyukaro\n\n🟢 Active: {time}",
 		"AutoLeave": false
 	},
 	"FcaOptions": {
@@ -100,7 +100,7 @@
 		},
 		"Scheduler": {
 			"Hello Greet every 1 Hour": {
-				"isEnable": false,
+				"isEnable": true,
 				"schedule": "1 */01 * * *",
 				"messages": "Hello everyone have a nice day.",
 				"attachment": "None",
@@ -108,7 +108,7 @@
 				"mode": "Interval"
 			},
 			"Good morning in 6:00AM": {
-				"isEnable": false,
+				"isEnable": true,
 				"schedule": "1 06 * * *",
 				"messages": "Good morning everyone have a nice day",
 				"attachment": "None",
